@@ -122,8 +122,9 @@ table {
 
 .contentL{
 	float: left;
-	width: 560px;
+	width: 540px;
 	height: 100%;
+	padding-right: 20px
 
 }
 .contentR{
