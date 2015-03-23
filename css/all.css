@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+  	width: 1280px;
+  	height: 960%;
+  	margin-left: auto;
+	margin-right: auto;
+}
+
+.header{
+	
+	width: 100%;
+	height: 200px; 
+	background:linear-gradient(0deg,#DCDCDC,#FFFFFF ,#FFFFFF,#FFFFFF,#FFFFFF);
+	
+}
+.logo{
+	float: left;
+	width: 480px;
+	height: auto;
+}
+.register{
+	float: left;
+	width: 160px;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.shop{
+	float: left;
+	width: 160px;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.gift{
+	float: left;
+	width: 160px;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.sale{
+	float: left;
+	width: 160px;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.new{
+	float: left;
+	width: 160px;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+.content{
+	width: 100%;
+	height: 280px;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px #DCDCDC solid;
+}
+
+.contentL{
+	float: left;
+	width: 800px;
+	height: 100%;
+}
+.contentR{
+	float: right;
+	width: 480px;
+	height: 100%;
+	position: relative;
+	background: url(../image/demo.png) no-repeat;
+	background-size: cover;
+
+	
+}
+
+.s2{
+	position: absolute;
+	bottom: 0px;
+	padding-left: 80px;
+	}
+
+.bottom{
+	
+	width: 100%;
+	height: 450px; 
+	margin-bottom: 10px
+
+}
+
+.left{
+	float: left;
+	width: 410px;
+	height: 100%;
+	background:linear-gradient(0deg,#AFEEEE,#E0FFFF ,#E0FFFF,#FFFFFF,#FFFFFF);
+	border-radius: 10px;
+}
+.s3{
+
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.center{
+
+	float: left;
+	width: 410px;
+	height: 100%;
+	background:linear-gradient(0deg,#AFEEEE,#E0FFFF ,#E0FFFF,#FFFFFF,#FFFFFF);
+	margin-left: 20px;
+	border-radius: 10px;
+}
+.right{
+
+	float: left;
+	width: 410px;
+	height: 100%;
+	background:linear-gradient(0deg,#AFEEEE,#E0FFFF ,#E0FFFF,#FFFFFF,#FFFFFF);
+	margin-left: 20px;
+	border-radius: 10px;
+}
