@@ -49,8 +49,8 @@ table {
 
 
 .wrap{
-  	width: 1280px;
-  	height: 960%;
+  	width: 800px;
+  	height: auto;
   	margin-left: auto;
 	margin-right: auto;
 }
@@ -58,18 +58,19 @@ table {
 .header{
 	
 	width: 100%;
-	height: 200px; 
+	height: 110px; 
 	background:linear-gradient(0deg,#DCDCDC,#FFFFFF ,#FFFFFF,#FFFFFF,#FFFFFF);
 	
 }
 .logo{
 	float: left;
-	width: 480px;
+	width: 400px;
 	height: auto;
+	
 }
 .register{
 	float: left;
-	width: 160px;
+	width: 80px;
 	height: auto;
 	text-align: center;
 	font-weight: bold;
@@ -78,7 +79,7 @@ table {
 
 .shop{
 	float: left;
-	width: 160px;
+	width: 80px;
 	height: auto;
 	text-align: center;
 	font-weight: bold;
@@ -87,7 +88,7 @@ table {
 
 .gift{
 	float: left;
-	width: 160px;
+	width: 80px;
 	height: auto;
 	text-align: center;
 	font-weight: bold;
@@ -96,7 +97,7 @@ table {
 
 .sale{
 	float: left;
-	width: 160px;
+	width: 80px;
 	height: auto;
 	text-align: center;
 	font-weight: bold;
@@ -105,7 +106,7 @@ table {
 
 .new{
 	float: left;
-	width: 160px;
+	width: 80px;
 	height: auto;
 	text-align: center;
 	font-weight: bold;
@@ -113,7 +114,7 @@ table {
 }
 .content{
 	width: 100%;
-	height: 280px;
+	height: 220px;
 	margin-bottom: 20px;
 	padding-bottom: 30px;
 	border-bottom: 1px #DCDCDC solid;
@@ -121,16 +122,18 @@ table {
 
 .contentL{
 	float: left;
-	width: 800px;
+	width: 560px;
 	height: 100%;
+
 }
 .contentR{
-	float: right;
-	width: 480px;
+	float: left;
+	width: 240px;
 	height: 100%;
 	position: relative;
 	background: url(../image/demo.png) no-repeat;
-	background-size: cover;
+	background-size: auto;
+
 
 	
 }
@@ -138,20 +141,22 @@ table {
 .s2{
 	position: absolute;
 	bottom: 0px;
-	padding-left: 80px;
+	padding-left: 30px;
+	padding-bottom: 50px
+	
 	}
 
 .bottom{
 	
 	width: 100%;
-	height: 450px; 
+	height: 300px; 
 	margin-bottom: 10px
 
 }
 
 .left{
 	float: left;
-	width: 410px;
+	width: 250px;
 	height: 100%;
 	background:linear-gradient(0deg,#AFEEEE,#E0FFFF ,#E0FFFF,#FFFFFF,#FFFFFF);
 	border-radius: 10px;
@@ -165,7 +170,7 @@ table {
 .center{
 
 	float: left;
-	width: 410px;
+	width: 250px;
 	height: 100%;
 	background:linear-gradient(0deg,#AFEEEE,#E0FFFF ,#E0FFFF,#FFFFFF,#FFFFFF);
 	margin-left: 20px;
@@ -174,7 +179,7 @@ table {
 .right{
 
 	float: left;
-	width: 410px;
+	width: 250px;
 	height: 100%;
 	background:linear-gradient(0deg,#AFEEEE,#E0FFFF ,#E0FFFF,#FFFFFF,#FFFFFF);
 	margin-left: 20px;
